@@ -4,7 +4,7 @@ import os
 import random
 import re
 
-TOKEN = "8134414526:AAEETxc6-4gRx2-2qGmNKjstSVyMMUPAPDI"
+TOKEN = "8134414526:AAGL7uKlWYn2iI8ldeCAh8L3DSUt98cnse4"
 bot = telegram.Bot(token=TOKEN)
 
 app = Flask(__name__)
