@@ -22,7 +22,7 @@ ACTION_GIFS = {
     ],
     "kick": [
         "https://media.giphy.com/media/xUNd9HZq1itMkiK652/giphy.gif",
-        "https://media.giphy.com/media/TkDX9bkIROf8/giphy.gif"
+        "https://media0.giphy.com/media/l3V0j3ytFyGHqiV7W/giphy.gif?cid=6c09b9524idlwjph2egk14k4h17ywwo4gkqqmmoz6qcnckas&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g"
     ]
 }
 
