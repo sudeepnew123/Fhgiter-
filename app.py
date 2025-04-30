@@ -16,7 +16,9 @@ ACTION_GIFS = {
     ],
     "punch": [
         "https://media.giphy.com/media/l3YSimA8CV1k41b1u/giphy.gif",
-        "https://media.giphy.com/media/fU4el8E4BVC0Q/giphy.gif"
+        "https://media0.giphy.com/media/uG3lKkAuh53wc/giphy.gif?cid=6c09b952tqodtm4uo1zmevobz6nixvd38di5l943a6kq62k8&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g"
+
+"https://media4.giphy.com/media/uqSU9IEYEKAbS/giphy.gif?cid=6c09b95244viu64y6a08dqppspaao0olxl13psqt9z09xp89&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
     ],
     "kick": [
         "https://media.giphy.com/media/xUNd9HZq1itMkiK652/giphy.gif",
@@ -84,4 +86,4 @@ def index():
     return "Bot is running!"
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000))) 
