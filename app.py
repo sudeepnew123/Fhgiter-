@@ -68,8 +68,14 @@ def webhook():
     gif_url = random.choice(ACTION_GIFS[command])
 
     final_msg = f"<b>{actor}</b> {action_text}"
-    bot.send_message(chat_id=message.chat.id, text=final_msg, parse_mode=telegram.ParseMode.HTML)
-    bot.send_animation(chat_id=message.chat.id, animation=gif_url)
+
+    # Single message with GIF + caption
+    bot.send_animation(
+        chat_id=message.chat.id,
+        animation=gif_url,
+        caption=final_msg,
+        parse_mode=telegram.ParseMode.HTML
+    )
 
     return "ok"
 
